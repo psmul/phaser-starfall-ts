@@ -1,7 +1,7 @@
 import "phaser";
-import {GameScene} from "./gameScene";
-import {WelcomeScene} from "./welcomeScene";
-import {ScoreScene} from "./scoreScene";
+import {GameScene} from "./scenes/gameScene";
+import {WelcomeScene} from "./scenes/welcomeScene";
+import {ScoreScene} from "./scenes/scoreScene";
 
 const config: GameConfig = {
   title: "Starfall",
@@ -15,7 +15,7 @@ const config: GameConfig = {
       debug: false
     }
   },
-  backgroundColor: "#18216D"
+  backgroundColor: "#37b4d6"
 };
 
 export class StarfallGame extends Phaser.Game {

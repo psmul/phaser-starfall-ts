@@ -1,7 +1,7 @@
 {
   "name": "phaser-starfall-ts",
   "version": "0.1.0",
-  "description": "Starfall game (Phaser 3 + TypeScript)",
+  "description": "Modified Starfall game from Medium tutorial (Phaser 3 + TypeScript)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
